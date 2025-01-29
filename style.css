@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'zpix'; /* Możesz zmienić nazwę na dowolną, której chcesz użyć */
+    src: url('zpix.ttf') format('truetype'); /* Ścieżka do pliku czcionki */
+    font-weight: normal; /* Możesz dostosować, jeśli masz różne wagi */
+    font-style: normal; /* Możesz ustawić na 'italic', jeśli to potrzebne */
+}
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.7);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255, 105, 180, 1);
+    }
+    }
+    
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.slowko, .tlumaczenie{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tlumaczenie{
+    height: 300px;
+}
+.title{
+    font-family: 'zpix';/* Użycie czcionki Poppins */
+    font-size: 4rem; /* Rozmiar czcionki */
+    color: white; /* Kolor czcionki */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Cień dla efektu 3D */
+    -webkit-text-stroke: 2px #ff69b4; /* Obsługa dla WebKit */
+    animation: glow 1.5s infinite alternate; /* Animacja błysku */
+}
+.webcam{
+    bottom: 30px;
+    left: 20px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    z-index: -2;
+}
+.ame{
+    width: 300px;
+    height: 300px;
+    margin-top: 67px;
+    margin-left: 50px;
+}
+.cam{
+    width: 500px;
+    height: 400px;
+}
+.task img{
+    position: absolute;
+    left: 1530px;
+    top: 20px;
+}
