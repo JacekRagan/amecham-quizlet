@@ -4,6 +4,9 @@
     font-weight: normal; /* Możesz dostosować, jeśli masz różne wagi */
     font-style: normal; /* Możesz ustawić na 'italic', jeśli to potrzebne */
 }
+*{
+    cursor: url('kursor.png') 16 16, auto;
+}
 body{
     padding: 0;
     border: 0;
@@ -78,8 +81,10 @@ header{
     align-items: center;
     flex-direction: column;
 }
+
 .login{
     display: flex;
+
 }
 .pol{
     background-color: white;
@@ -143,7 +148,10 @@ header{
     border: 1px solid rgb(175, 175, 175); 
     border-bottom: 1px solid rgba(219, 219, 219, 0.8); 
 }
-
+.zaloguj:hover{
+    border: dotted 1px black;
+    background-color: #ebebeb;
+}
 .kwa{
     border: solid 5px #4D21CB;
 }

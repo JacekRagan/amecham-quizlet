@@ -8,5 +8,8 @@
 </head>
 <body>
     <!-- zrobic cos fajnego tutaj jeszcze nwm jakis taki layout z klockami do tych fishcardow czy cow trudno powiedziec !-->
+     <div id="container">
+        
+     </div>
 </body>
 </html>
