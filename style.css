@@ -15,8 +15,83 @@ body{
     background-repeat: no-repeat;
 }
 #container{
-    width: 82%;
-    height: 907px;
-    margin-left: 9%;
-    border: solid 1px red;
+    width: 60%;
+    height: 790px;
+    margin-left: 20%;
+}
+.lol {
+    border: dotted 2px #4a3b71;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.lol::-webkit-scrollbar{
+    display: none;
+}
+
+img{
+    width: fit-content;
+    height: fit-content;
+}
+.uzyt{
+    width: 50px;
+    height: 50px;
+}
+.napis{
+    font-size: 20px;
+    color: white;
+    font-family: zpix;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+.nazwa{
+    width: 130px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    color:#4D21CB;
+    font-family: zpix;
+    padding: 6px;
+    background-color: white;
+}
+.wczy{
+    width: 125px;
+    padding: 6px;
+    font-size: 18px;
+    border: 1px solid rgba(50, 50, 50, 0.5); /* Cienka, ciemnoszara ramka */
+    border-radius: 3px; /* Lekko zaokrąglone rogi */
+    background: white;
+    font-family: zpix;
+    outline: none;
+    color: #4a3b71;
+}
+.wczy:hover{
+    background-color: rgb(236, 236, 236);
+}
+.top{
+    width: 100%;
+    height: 150px;
+}
+.save{
+    margin-left: 20px;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tytul{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #4D21CB;
+    text-shadow: 2px 5px 1px white  ;
+    font-family: zpix;
+    font-size: 60px;
 }
